@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  body { margin:0; }
+  a { color:#0B5B55; }
+  a:hover { color:#052926; }
+</style>
+</helmet>
+<div style="min-height:100vh; background:#F1F5F4; display:flex; flex-direction:column; align-items:center; gap:24px; padding:56px 24px; box-sizing:border-box; font-family:'Public Sans', Arial, sans-serif;">
+
+  <div style="width:100%; max-width:640px; display:flex; flex-direction:column; gap:6px;">
+    <div style="font-family:'Public Sans',Arial,sans-serif; font-size:12px; font-weight:600; letter-spacing:.12em; text-transform:uppercase; color:#5B6B69;">Email signature — preview</div>
+    <div style="font-family:'Public Sans',Arial,sans-serif; font-size:13px; color:#5B6B69; line-height:1.5;">Copy the block below into your mail client's signature editor. Host the images (logo + <span style="font-family:monospace; font-size:12px; color:#0B5B55;">icon-tel/email/web/linkedin.png</span>) on public URLs and point each <span style="font-family:monospace; font-size:12px; color:#0B5B55;">src</span> at them before sending.</div>
+  </div>
+
+  <!-- SIGNATURE CARD -->
+  <div style="background:#FFFFFF; border:1px solid #E2E8E6; border-radius:14px; padding:32px 36px; box-shadow:0 8px 30px rgba(6,42,49,.06); max-width:640px; width:100%; box-sizing:border-box;">
+
+    <table cellpadding="0" cellspacing="0" border="0" role="presentation" style="border-collapse:collapse; font-family:'Public Sans', Arial, sans-serif;">
+      <tr>
+        <!-- Logo column -->
+        <td style="vertical-align:middle; padding-right:26px;">
+          <img src="assets/app-icon-1024-rounded.png" alt="Provect LTD" width="84" style="display:block; width:84px; height:84px; border-radius:18px;">
+        </td>
+        <!-- Divider -->
+        <td style="width:1px; background:#E2E8E6; font-size:0; line-height:0;">&nbsp;</td>
+        <!-- Details column -->
+        <td style="vertical-align:middle; padding-left:26px;">
+          <div style="font-family:'Public Sans',Arial,sans-serif; font-size:19px; font-weight:700; color:#062A31; line-height:1.15; letter-spacing:-.01em;">Binoy KP</div>
+          <div style="font-family:'Public Sans',Arial,sans-serif; font-size:13px; font-weight:600; color:#0B5B55; letter-spacing:.01em; padding-top:4px;">{{ title }}</div>
+
+          <div style="height:14px; line-height:14px; font-size:0;">&nbsp;</div>
+
+          <table cellpadding="0" cellspacing="0" border="0" role="presentation" style="border-collapse:collapse;">
+            <tr>
+              <td style="padding:2px 28px 2px 0; white-space:nowrap; vertical-align:middle;">
+                <img src="assets/icon-tel.png" alt="Tel" width="14" height="14" style="display:inline-block; width:14px; height:14px; vertical-align:middle; margin-right:9px;"><a href="tel:{{ phoneHref }}" style="font-family:'Public Sans',Arial,sans-serif; font-size:13px; color:#062A31; text-decoration:none; vertical-align:middle;">{{ phone }}</a>
+              </td>
+              <td style="padding:2px 0; white-space:nowrap; vertical-align:middle;">
+                <img src="assets/icon-email.png" alt="Email" width="14" height="14" style="display:inline-block; width:14px; height:14px; vertical-align:middle; margin-right:9px;"><a href="mailto:{{ email }}" style="font-family:'Public Sans',Arial,sans-serif; font-size:13px; color:#0B5B55; text-decoration:none; vertical-align:middle;">{{ email }}</a>
+              </td>
+            </tr>
+            <tr>
+              <td style="padding:2px 28px 2px 0; white-space:nowrap; vertical-align:middle;">
+                <img src="assets/icon-web.png" alt="Web" width="14" height="14" style="display:inline-block; width:14px; height:14px; vertical-align:middle; margin-right:9px;"><a href="{{ websiteHref }}" style="font-family:'Public Sans',Arial,sans-serif; font-size:13px; color:#0B5B55; text-decoration:none; vertical-align:middle;">{{ website }}</a>
+              </td>
+              <td style="padding:2px 0; white-space:nowrap; vertical-align:middle;">
+                <img src="assets/icon-linkedin.png" alt="LinkedIn" width="14" height="14" style="display:inline-block; width:14px; height:14px; vertical-align:middle; margin-right:9px;"><a href="{{ linkedinHref }}" style="font-family:'Public Sans',Arial,sans-serif; font-size:13px; color:#0B5B55; text-decoration:none; vertical-align:middle;">{{ linkedin }}</a>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2" style="padding:2px 0; white-space:nowrap; vertical-align:middle;">
+                <img src="assets/icon-calendar.png" alt="Book a call" width="14" height="14" style="display:inline-block; width:14px; height:14px; vertical-align:middle; margin-right:9px;"><a href="{{ calendlyHref }}" style="font-family:'Public Sans',Arial,sans-serif; font-size:13px; color:#0B5B55; text-decoration:none; font-weight:600; vertical-align:middle;">Book a 30-min call</a>
+              </td>
+            </tr>
+          </table>
+
+          <div style="height:14px; line-height:14px; font-size:0;">&nbsp;</div>
+          <div style="height:1px; background:#EDF1F0; font-size:0; line-height:0; max-width:380px;">&nbsp;</div>
+          <div style="height:12px; line-height:12px; font-size:0;">&nbsp;</div>
+
+          <div style="font-family:'Public Sans',Arial,sans-serif; font-size:10px; font-weight:600; color:#8A9895; line-height:1.5; max-width:380px; letter-spacing:.01em;">{{ legal }}</div>
+          <div style="height:5px; line-height:5px; font-size:0;">&nbsp;</div>
+          <div style="font-family:'Public Sans',Arial,sans-serif; font-size:10px; color:#AEBAB7; line-height:1.5; max-width:380px;">This email and any attachments are confidential and intended solely for the named recipient. If received in error, please notify the sender and delete it.</div>
+        </td>
+      </tr>
+    </table>
+
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{
+  &quot;$preview&quot;: { &quot;width&quot;: 720, &quot;height&quot;: 440 },
+  &quot;title&quot;: { &quot;editor&quot;: &quot;text&quot;, &quot;default&quot;: &quot;Founder &amp; Principal Engineer&quot;, &quot;tsType&quot;: &quot;string&quot; },
+  &quot;phone&quot;: { &quot;editor&quot;: &quot;text&quot;, &quot;default&quot;: &quot;+44 7359 861440&quot;, &quot;tsType&quot;: &quot;string&quot; },
+  &quot;email&quot;: { &quot;editor&quot;: &quot;text&quot;, &quot;default&quot;: &quot;binoy@provect.co.uk&quot;, &quot;tsType&quot;: &quot;string&quot; },
+  &quot;website&quot;: { &quot;editor&quot;: &quot;text&quot;, &quot;default&quot;: &quot;provect.co.uk&quot;, &quot;tsType&quot;: &quot;string&quot; },
+  &quot;linkedin&quot;: { &quot;editor&quot;: &quot;text&quot;, &quot;default&quot;: &quot;linkedin.com/in/binoykp&quot;, &quot;tsType&quot;: &quot;string&quot; },
+  &quot;calendly&quot;: { &quot;editor&quot;: &quot;text&quot;, &quot;default&quot;: &quot;https://calendly.com/binoybkp/30min&quot;, &quot;tsType&quot;: &quot;string&quot; },
+  &quot;companyNo&quot;: { &quot;editor&quot;: &quot;text&quot;, &quot;default&quot;: &quot;NI742298&quot;, &quot;tsType&quot;: &quot;string&quot; },
+  &quot;regOffice&quot;: { &quot;editor&quot;: &quot;text&quot;, &quot;default&quot;: &quot;&quot;, &quot;tsType&quot;: &quot;string&quot; }
+}">
+class Component extends DCLogic {
+  renderVals() {
+    const phone = this.props.phone ?? "+44 7359 861440";
+    const email = this.props.email ?? "binoy@provect.co.uk";
+    const website = this.props.website ?? "provect.co.uk";
+    const linkedin = this.props.linkedin ?? "linkedin.com/in/binoykp";
+    const calendly = this.props.calendly ?? "https://calendly.com/binoybkp/30min";
+    const companyNo = this.props.companyNo ?? "NI742298";
+    const regOffice = this.props.regOffice ?? "";
+    const legal = "Provect LTD · Company No. " + companyNo + (regOffice ? " · Registered office: " + regOffice : "");
+    return {
+      calendlyHref: calendly.match(/^https?:\/\//) ? calendly : "https://" + calendly,
+      legal,
+      title: this.props.title ?? "Founder & Principal Engineer",
+      phone,
+      phoneHref: phone.replace(/[^+\d]/g, ""),
+      email,
+      website,
+      websiteHref: website.match(/^https?:\/\//) ? website : "https://" + website,
+      linkedin,
+      linkedinHref: linkedin.match(/^https?:\/\//) ? linkedin : "https://" + linkedin,
+    };
+  }
+}
+</script>
+</body>
+</html>

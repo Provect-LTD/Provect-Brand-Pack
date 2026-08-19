@@ -1,0 +1,26 @@
+PROVECT LTD — BRAND ASSETS & COLORS (for website build)
+========================================================
+
+COLORS
+------
+Provect Teal   #0B5B55   rgb(11,91,85)    — PRIMARY (logo, buttons, links, headings accent)
+Provect Petrol #062A31   rgb(6,42,49)     — DARK SURFACE (hero/footer backgrounds, icon tiles)
+Electric Aqua  #2DD4BF   rgb(45,212,191)  — ACCENT (highlights, interactive states on dark)
+
+
+FONTS
+-----
+Headings / display : Space Grotesk  (weights 400,500,600,700)
+Body / UI          : Public Sans    (weights 400,500,600,700)
+Google Fonts: https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Public+Sans:wght@400;500;600;700&display=swap
+
+
+QUICK USAGE
+-----------
+- Logo on white/light background  -> provect-logo-primary.svg
+- Logo on teal/petrol/dark background -> provect-logo-reversed.svg
+- Small space / icon only -> provect-mark-teal.svg (light) or provect-mark-white.svg (dark)
+- Browser tab favicon -> favicon-32.png (link rel="icon")
+- Primary buttons: background #0B5B55, text #fff, hover #062A31
+- Links: #0B5B55, hover #052926
+- Body text #0F172A on #F8FAFC background

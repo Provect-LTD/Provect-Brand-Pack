@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&amp;family=Public+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body { background: #EEF4F3; -webkit-font-smoothing: antialiased; }
+  a { color: #0B5B55; text-decoration: none; }
+  a:hover { color: #052926; }
+</style>
+</helmet>
+<div style="--accent: {{ accent }}; font-family: 'Public Sans', system-ui, sans-serif; color: #0F1B19; background: #EEF4F3; min-height: 100%;">
+
+  <!-- ============ COVER ============ -->
+  <section style="background: linear-gradient(135deg, #062A31 0%, #041A1F 100%); color: #fff; padding: 96px 72px 84px; position: relative; overflow: hidden;">
+    <div style="position: absolute; right: -120px; top: 50%; transform: translateY(-50%); width: 620px; height: 620px; opacity: 0.06;">
+      <img src="assets/provect-mark-white.svg" alt="" style="width: 100%; height: 100%;">
+    </div>
+    <div style="position: relative; max-width: 1180px; margin: 0 auto;">
+      <div style="font-family: 'Space Grotesk'; letter-spacing: 0.32em; font-size: 13px; font-weight: 500; text-transform: uppercase; color: var(--accent, #2DD4BF); margin-bottom: 56px;">Brand Guidelines</div>
+      <img src="assets/provect-logo-reversed.svg" alt="PROVECT" style="width: 460px; max-width: 70%; display: block; margin-bottom: 40px;">
+      <div style="font-family: 'Space Grotesk'; font-size: 34px; font-weight: 400; line-height: 1.25; max-width: 900px; white-space: nowrap; letter-spacing: -0.01em; color: rgba(255,255,255,0.92);">Brand Pack for PROVECT LTD.</div>
+      <div style="display: flex; gap: 40px; margin-top: 64px; flex-wrap: wrap; font-size: 14px; color: rgba(255,255,255,0.7);">
+        <div style="white-space: nowrap;"><span style="color: var(--accent, #2DD4BF);">01</span> &nbsp;Logo</div>
+        <div style="white-space: nowrap;"><span style="color: var(--accent, #2DD4BF);">02</span> &nbsp;Variations</div>
+        <div style="white-space: nowrap;"><span style="color: var(--accent, #2DD4BF);">03</span> &nbsp;Clearspace</div>
+        <div style="white-space: nowrap;"><span style="color: var(--accent, #2DD4BF);">04</span> &nbsp;Color</div>
+        <div style="white-space: nowrap;"><span style="color: var(--accent, #2DD4BF);">05</span> &nbsp;Typography</div>
+        <div style="white-space: nowrap;"><span style="color: var(--accent, #2DD4BF);">06</span> &nbsp;Favicon &amp; app icon</div>
+        <div style="white-space: nowrap;"><span style="color: var(--accent, #2DD4BF);">07</span> &nbsp;Social</div>
+      </div>
+    </div>
+  </section>
+
+  <div style="max-width: 1180px; margin: 0 auto; padding: 0 72px;">
+
+  <!-- ============ 01 LOGO ============ -->
+  <section style="padding: 88px 0 56px;">
+    <div style="display: flex; align-items: baseline; gap: 18px; margin-bottom: 12px;">
+      <span style="font-family: 'Space Grotesk'; color: #0B5B55; font-weight: 600; font-size: 15px;">01</span>
+      <h2 style="font-family: 'Space Grotesk'; font-size: 30px; font-weight: 600; margin: 0; letter-spacing: -0.02em;">The Logo</h2>
+    </div>
+    <p style="max-width: 620px; color: #4A5B58; font-size: 16px; line-height: 1.6; margin: 0 0 40px;">The PROVECT logo pairs an orbiting-atom mark with a light, wide-tracked wordmark. The mark signals intelligent systems in motion; the cube at its center, the product being built. Never redraw, restretch, or re-typeset either element.</p>
+
+    <div style="background: #fff; border: 1px solid #E4EAE9; border-radius: 20px; padding: 72px 72px 40px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 32px; box-shadow: 0 1px 3px rgba(11,91,85,0.04);">
+      <img src="assets/provect-logo-primary.svg" alt="PROVECT primary logo" style="width: 560px; max-width: 100%;">
+      <div style="display:flex; gap:10px;">
+        <a href="assets/provect-logo-primary.svg" download="" style="display:inline-flex; align-items:center; gap:7px; padding:9px 18px; background:#0B5B55; color:#fff; border-radius:9px; font-size:13px; font-weight:600;" style-hover="background:#052926;">↓&nbsp; SVG</a>
+        <a href="assets/provect-logo-primary.png" download="" style="display:inline-flex; align-items:center; gap:7px; padding:9px 18px; background:#fff; color:#0B5B55; border:1px solid #0B5B55; border-radius:9px; font-size:13px; font-weight:600;" style-hover="background:#E6F0F1;">↓&nbsp; PNG</a>
+      </div>
+    </div>
+
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-top: 24px;">
+      <div style="background: #fff; border: 1px solid #E4EAE9; border-radius: 20px; padding: 44px; display: flex; flex-direction: column; gap: 28px;">
+        <div style="display: flex; align-items: center; justify-content: center; min-height: 120px;">
+          <img src="assets/provect-logo-tagline-primary.svg" alt="PROVECT with tagline" style="width: 380px; max-width: 100%;">
+        </div>
+        <div style="display:flex; align-items:flex-end; justify-content:space-between; gap:16px; border-top: 1px solid #EEF2F1; padding-top: 16px;"><span style="font-size: 13px; color: #7A8886;">Tagline lockup — for first-impression contexts.</span><a href="assets/provect-logo-tagline-primary.svg" download="" style="flex:none; display:inline-flex; align-items:center; gap:6px; padding:7px 14px; background:#0B5B55; color:#fff; border-radius:8px; font-size:12px; font-weight:600;" style-hover="background:#052926;">↓ SVG</a></div>
+      </div>
+      <div style="background: #fff; border: 1px solid #E4EAE9; border-radius: 20px; padding: 44px; display: flex; flex-direction: column; gap: 28px;">
+        <div style="display: flex; align-items: center; justify-content: center; min-height: 120px;">
+          <img src="assets/provect-mark-teal.svg" alt="PROVECT mark" style="width: 120px;">
+        </div>
+        <div style="display:flex; align-items:flex-end; justify-content:space-between; gap:16px; border-top: 1px solid #EEF2F1; padding-top: 16px;"><span style="font-size: 13px; color: #7A8886;">Standalone mark — for avatars, app icons, tight spaces.</span><a href="assets/provect-mark-teal.svg" download="" style="flex:none; display:inline-flex; align-items:center; gap:6px; padding:7px 14px; background:#0B5B55; color:#fff; border-radius:8px; font-size:12px; font-weight:600;" style-hover="background:#052926;">↓ SVG</a><a href="assets/provect-mark-teal.png" download="" style="flex:none; display:inline-flex; align-items:center; gap:6px; padding:7px 14px; background:#fff; color:#0B5B55; border:1px solid #0B5B55; border-radius:8px; font-size:12px; font-weight:600;" style-hover="background:#E6F0F1;">↓ PNG</a></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 02 VARIATIONS ============ -->
+  <section style="padding: 56px 0;">
+    <div style="display: flex; align-items: baseline; gap: 18px; margin-bottom: 12px;">
+      <span style="font-family: 'Space Grotesk'; color: #0B5B55; font-weight: 600; font-size: 15px;">02</span>
+      <h2 style="font-family: 'Space Grotesk'; font-size: 30px; font-weight: 600; margin: 0; letter-spacing: -0.02em;">Variations</h2>
+    </div>
+    <p style="max-width: 620px; color: #4A5B58; font-size: 16px; line-height: 1.6; margin: 0 0 40px;">Choose the version that holds the most contrast against its background. Primary teal on light, reversed white on brand or photography, single-ink where color can't print.</p>
+
+    <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px;">
+      <div style="border-radius: 20px; overflow: hidden; border: 1px solid #E4EAE9;">
+        <div style="background: #fff; height: 190px; display: flex; align-items: center; justify-content: center; padding: 36px;">
+          <img src="assets/provect-logo-primary.svg" alt="" style="width: 240px; max-width: 100%;">
+        </div>
+        <div style="background: #fff; padding: 14px 20px; border-top: 1px solid #EEF2F1; font-size: 13px; color: #4A5B58; display:flex; align-items:center; justify-content:space-between; gap:12px;"><span><strong style="color:#0F1B19;">Primary</strong> · Teal on light</span><a href="assets/provect-logo-primary.svg" download="" style="flex:none; padding:6px 12px; background:#0B5B55; color:#fff; border-radius:8px; font-size:12px; font-weight:600;" style-hover="background:#052926;">↓ SVG</a></div>
+      </div>
+      <div style="border-radius: 20px; overflow: hidden; border: 1px solid #E4EAE9;">
+        <div style="background: #062A31; height: 190px; display: flex; align-items: center; justify-content: center; padding: 36px;">
+          <img src="assets/provect-logo-reversed.svg" alt="" style="width: 240px; max-width: 100%;">
+        </div>
+        <div style="background: #fff; padding: 14px 20px; border-top: 1px solid #EEF2F1; font-size: 13px; color: #4A5B58; display:flex; align-items:center; justify-content:space-between; gap:12px;"><span><strong style="color:#0F1B19;">Reversed</strong> · White on petrol</span><a href="assets/provect-logo-reversed.svg" download="" style="flex:none; padding:6px 12px; background:#0B5B55; color:#fff; border-radius:8px; font-size:12px; font-weight:600;" style-hover="background:#052926;">↓ SVG</a></div>
+      </div>
+      <div style="border-radius: 20px; overflow: hidden; border: 1px solid #E4EAE9;">
+        <div style="background: #073B37; height: 190px; display: flex; align-items: center; justify-content: center; padding: 36px;">
+          <img src="assets/provect-logo-reversed.svg" alt="" style="width: 240px; max-width: 100%;">
+        </div>
+        <div style="background: #fff; padding: 14px 20px; border-top: 1px solid #EEF2F1; font-size: 13px; color: #4A5B58; display:flex; align-items:center; justify-content:space-between; gap:12px;"><span><strong style="color:#0F1B19;">Reversed</strong> · White on ink</span><a href="assets/provect-logo-reversed.svg" download="" style="flex:none; padding:6px 12px; background:#0B5B55; color:#fff; border-radius:8px; font-size:12px; font-weight:600;" style-hover="background:#052926;">↓ SVG</a></div>
+      </div>
+      <div style="border-radius: 20px; overflow: hidden; border: 1px solid #E4EAE9;">
+        <div style="background: #fff; height: 190px; display: flex; align-items: center; justify-content: center; padding: 36px;">
+          <img src="assets/provect-logo-black.svg" alt="" style="width: 240px; max-width: 100%;">
+        </div>
+        <div style="background: #fff; padding: 14px 20px; border-top: 1px solid #EEF2F1; font-size: 13px; color: #4A5B58; display:flex; align-items:center; justify-content:space-between; gap:12px;"><span><strong style="color:#0F1B19;">Single-ink</strong> · For 1-color print</span><a href="assets/provect-logo-black.svg" download="" style="flex:none; padding:6px 12px; background:#0B5B55; color:#fff; border-radius:8px; font-size:12px; font-weight:600;" style-hover="background:#052926;">↓ SVG</a></div>
+      </div>
+      <div style="border-radius: 20px; overflow: hidden; border: 1px solid #E4EAE9;">
+        <div style="background: #E6F0F1; height: 190px; display: flex; align-items: center; justify-content: center; padding: 36px;">
+          <img src="assets/provect-mark-teal.svg" alt="" style="width: 96px;">
+        </div>
+        <div style="background: #fff; padding: 14px 20px; border-top: 1px solid #EEF2F1; font-size: 13px; color: #4A5B58; display:flex; align-items:center; justify-content:space-between; gap:12px;"><span><strong style="color:#0F1B19;">Mark</strong> · Teal on tint</span><a href="assets/provect-mark-teal.svg" download="" style="flex:none; padding:6px 12px; background:#0B5B55; color:#fff; border-radius:8px; font-size:12px; font-weight:600;" style-hover="background:#052926;">↓ SVG</a></div>
+      </div>
+      <div style="border-radius: 20px; overflow: hidden; border: 1px solid #E4EAE9;">
+        <div style="background: #062A31; height: 190px; display: flex; align-items: center; justify-content: center; padding: 36px;">
+          <img src="assets/provect-mark-white.svg" alt="" style="width: 96px;">
+        </div>
+        <div style="background: #fff; padding: 14px 20px; border-top: 1px solid #EEF2F1; font-size: 13px; color: #4A5B58; display:flex; align-items:center; justify-content:space-between; gap:12px;"><span><strong style="color:#0F1B19;">Mark</strong> · White on petrol</span><a href="assets/provect-mark-white.svg" download="" style="flex:none; padding:6px 12px; background:#0B5B55; color:#fff; border-radius:8px; font-size:12px; font-weight:600;" style-hover="background:#052926;">↓ SVG</a></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 03 CLEARSPACE & MIN SIZE ============ -->
+  <section style="padding: 56px 0;">
+    <div style="display: flex; align-items: baseline; gap: 18px; margin-bottom: 12px;">
+      <span style="font-family: 'Space Grotesk'; color: #0B5B55; font-weight: 600; font-size: 15px;">03</span>
+      <h2 style="font-family: 'Space Grotesk'; font-size: 30px; font-weight: 600; margin: 0; letter-spacing: -0.02em;">Clearspace &amp; minimum size</h2>
+    </div>
+    <p style="max-width: 620px; color: #4A5B58; font-size: 16px; line-height: 1.6; margin: 0 0 40px;">Keep a margin of at least the mark's height (×) clear on every side. Never place type, edges, or other logos inside this zone.</p>
+
+    <div style="display: grid; grid-template-columns: 1.4fr 1fr; gap: 24px;">
+      <div style="background: #fff; border: 1px solid #E4EAE9; border-radius: 20px; padding: 40px;">
+        <div style="position: relative; border: 1px dashed #B7C9C6; border-radius: 10px; padding: 64px; display: flex; align-items: center; justify-content: center;">
+          <div style="position:absolute; inset: 8px; border: 1px solid #E6F0F1; border-radius: 6px;"></div>
+          <div style="position:absolute; top: 8px; left: 50%; transform: translateX(-50%); background: var(--accent, #2DD4BF); color:#052926; font-size: 11px; font-weight:700; padding: 2px 8px; border-radius: 4px;">× clearspace</div>
+          <img src="assets/provect-logo-primary.svg" alt="" style="width: 300px; max-width: 100%; position: relative;">
+        </div>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 24px;">
+        <div style="background: #fff; border: 1px solid #E4EAE9; border-radius: 20px; padding: 32px 36px;">
+          <div style="font-family:'Space Grotesk'; font-weight:600; font-size: 15px; margin-bottom: 20px;">Minimum size</div>
+          <div style="display: flex; align-items: flex-end; gap: 32px;">
+            <div style="text-align:center;">
+              <img src="assets/provect-logo-primary.svg" alt="" style="width: 160px; display:block; margin-bottom: 10px;">
+              <div style="font-size:12px; color:#7A8886;">Full logo · 120px / 32mm min width</div>
+            </div>
+            <div style="text-align:center;">
+              <img src="assets/provect-mark-teal.svg" alt="" style="width: 40px; display:block; margin: 0 auto 10px;">
+              <div style="font-size:12px; color:#7A8886;">Mark · 24px min</div>
+            </div>
+          </div>
+        </div>
+        <div style="background: #EAF1F2; border: 1px solid #E4EAE9; border-radius: 20px; padding: 24px 28px; font-size: 13px; color: #4A5B58; line-height:1.55;">Below full-logo minimum, switch to the standalone mark rather than shrinking the wordmark past legibility.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 04 COLOR ============ -->
+  <section style="padding: 56px 0;">
+    <div style="display: flex; align-items: baseline; gap: 18px; margin-bottom: 12px;">
+      <span style="font-family: 'Space Grotesk'; color: #0B5B55; font-weight: 600; font-size: 15px;">04</span>
+      <h2 style="font-family: 'Space Grotesk'; font-size: 30px; font-weight: 600; margin: 0; letter-spacing: -0.02em;">Color</h2>
+    </div>
+    <p style="max-width: 620px; color: #4A5B58; font-size: 16px; line-height: 1.6; margin: 0 0 40px;">Provect Teal is the primary; Provect Petrol is the dark surface behind icons and hero moments. Electric Aqua is the accent for interactive energy. Slate neutrals carry everything else.</p>
+
+    <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-bottom: 24px;">
+      <div style="border-radius: 20px; overflow:hidden; border: 1px solid #E4EAE9;">
+        <div style="background:#0B5B55; height: 150px;"></div>
+        <div style="background:#fff; padding: 18px 22px;">
+          <div style="font-family:'Space Grotesk'; font-weight:600; font-size:16px;">Provect Teal</div>
+          <div style="font-size:13px; color:#7A8886; margin-top:4px;">#0B5B55 · RGB 11 91 85 · Primary</div>
+        </div>
+      </div>
+      <div style="border-radius: 20px; overflow:hidden; border: 1px solid #E4EAE9;">
+        <div style="background:#062A31; height: 150px;"></div>
+        <div style="background:#fff; padding: 18px 22px;">
+          <div style="font-family:'Space Grotesk'; font-weight:600; font-size:16px;">Provect Petrol</div>
+          <div style="font-size:13px; color:#7A8886; margin-top:4px;">#062A31 · RGB 6 42 49 · Dark surface</div>
+        </div>
+      </div>
+      <div style="border-radius: 20px; overflow:hidden; border: 1px solid #E4EAE9;">
+        <div style="background: var(--accent, #2DD4BF); height: 150px;"></div>
+        <div style="background:#fff; padding: 18px 22px;">
+          <div style="font-family:'Space Grotesk'; font-weight:600; font-size:16px;">Electric Aqua</div>
+          <div style="font-size:13px; color:#7A8886; margin-top:4px;">#2DD4BF · Accent</div>
+        </div>
+      </div>
+    </div>
+
+    <div style="display:grid; grid-template-columns: repeat(6, 1fr); gap: 12px; margin-bottom: 28px;">
+      <div style="border-radius:12px; overflow:hidden; border:1px solid #E4EAE9;"><div style="background:#052926;height:72px;"></div><div style="background:#fff;padding:10px 12px;font-size:11px;color:#7A8886;">900<br>#052926</div></div>
+      <div style="border-radius:12px; overflow:hidden; border:1px solid #E4EAE9;"><div style="background:#094B46;height:72px;"></div><div style="background:#fff;padding:10px 12px;font-size:11px;color:#7A8886;">700<br>#094B46</div></div>
+      <div style="border-radius:12px; overflow:hidden; border:1px solid #E4EAE9;"><div style="background:#0B5B55;height:72px;"></div><div style="background:#fff;padding:10px 12px;font-size:11px;color:#7A8886;">600 · base<br>#0B5B55</div></div>
+      <div style="border-radius:12px; overflow:hidden; border:1px solid #E4EAE9;"><div style="background:#5E938F;height:72px;"></div><div style="background:#fff;padding:10px 12px;font-size:11px;color:#7A8886;">400<br>#5E938F</div></div>
+      <div style="border-radius:12px; overflow:hidden; border:1px solid #E4EAE9;"><div style="background:#B6CECC;height:72px;"></div><div style="background:#fff;padding:10px 12px;font-size:11px;color:#7A8886;">200<br>#B6CECC</div></div>
+      <div style="border-radius:12px; overflow:hidden; border:1px solid #E4EAE9;"><div style="background:#F0F5F5;height:72px;"></div><div style="background:#fff;padding:10px 12px;font-size:11px;color:#7A8886;">50<br>#F0F5F5</div></div>
+    </div>
+
+    <div style="display:grid; grid-template-columns: repeat(6, 1fr); gap: 12px;">
+      <div style="border-radius:12px; overflow:hidden; border:1px solid #E4EAE9;"><div style="background:#073B37;height:72px;"></div><div style="background:#fff;padding:10px 12px;font-size:11px;color:#7A8886;">Ink<br>#073B37</div></div>
+      <div style="border-radius:12px; overflow:hidden; border:1px solid #E4EAE9;"><div style="background:#0F172A;height:72px;"></div><div style="background:#fff;padding:10px 12px;font-size:11px;color:#7A8886;">Slate 900<br>#0F172A</div></div>
+      <div style="border-radius:12px; overflow:hidden; border:1px solid #E4EAE9;"><div style="background:#475569;height:72px;"></div><div style="background:#fff;padding:10px 12px;font-size:11px;color:#7A8886;">Slate 600<br>#475569</div></div>
+      <div style="border-radius:12px; overflow:hidden; border:1px solid #E4EAE9;"><div style="background:#94A3B8;height:72px;"></div><div style="background:#fff;padding:10px 12px;font-size:11px;color:#7A8886;">Slate 400<br>#94A3B8</div></div>
+      <div style="border-radius:12px; overflow:hidden; border:1px solid #E4EAE9;"><div style="background:#E2E8F0;height:72px;"></div><div style="background:#fff;padding:10px 12px;font-size:11px;color:#7A8886;">Slate 200<br>#E2E8F0</div></div>
+      <div style="border-radius:12px; overflow:hidden; border:1px solid #E4EAE9;"><div style="background:#F8FAFC;height:72px;"></div><div style="background:#fff;padding:10px 12px;font-size:11px;color:#7A8886;">Slate 50<br>#F8FAFC</div></div>
+    </div>
+  </section>
+
+  <!-- ============ 05 TYPOGRAPHY ============ -->
+  <section style="padding: 56px 0;">
+    <div style="display: flex; align-items: baseline; gap: 18px; margin-bottom: 12px;">
+      <span style="font-family: 'Space Grotesk'; color: #0B5B55; font-weight: 600; font-size: 15px;">05</span>
+      <h2 style="font-family: 'Space Grotesk'; font-size: 30px; font-weight: 600; margin: 0; letter-spacing: -0.02em;">Typography</h2>
+    </div>
+    <p style="max-width: 620px; color: #4A5B58; font-size: 16px; line-height: 1.6; margin: 0 0 40px;">Space Grotesk sets display and headings — geometric and confident. Public Sans carries body copy and interface text — neutral and highly legible at every size.</p>
+    <div style="display:grid; grid-template-columns: repeat(2,1fr); gap:24px; margin-bottom:24px;">
+      <div style="background:#fff; border:1px solid #E4EAE9; border-radius:20px; padding:40px;">
+        <div style="font-family:'Space Grotesk'; font-weight:600; font-size:104px; line-height:0.9; color:#0B5B55; margin-bottom:20px;">Ag</div>
+        <div style="display:flex; align-items:baseline; justify-content:space-between; gap:12px; border-bottom:1px solid #EEF2F1; padding-bottom:14px; margin-bottom:16px;">
+          <div style="font-family:'Space Grotesk'; font-weight:600; font-size:20px;">Space Grotesk</div>
+          <div style="font-size:12px; color:#7A8886; text-transform:uppercase; letter-spacing:0.12em;">Display · Headings</div>
+        </div>
+        <div style="display:flex; flex-wrap:wrap; gap:18px; margin-bottom:16px; font-family:'Space Grotesk';">
+          <span style="font-weight:400; font-size:18px;">Regular</span>
+          <span style="font-weight:500; font-size:18px;">Medium</span>
+          <span style="font-weight:600; font-size:18px;">SemiBold</span>
+          <span style="font-weight:700; font-size:18px;">Bold</span>
+        </div>
+        <div style="font-family:'Space Grotesk'; font-size:17px; color:#4A5B58; letter-spacing:0.01em;">AaBbCcDdEe &nbsp; 0123456789</div>
+        <div style="font-size:12px; color:#7A8886; margin-top:14px; line-height:1.5;">Use for titles, section headers, numerals, and the wordmark voice. Tracking tight on large sizes.</div>
+      </div>
+      <div style="background:#fff; border:1px solid #E4EAE9; border-radius:20px; padding:40px;">
+        <div style="font-family:'Public Sans'; font-weight:600; font-size:104px; line-height:0.9; color:#062A31; margin-bottom:20px;">Ag</div>
+        <div style="display:flex; align-items:baseline; justify-content:space-between; gap:12px; border-bottom:1px solid #EEF2F1; padding-bottom:14px; margin-bottom:16px;">
+          <div style="font-family:'Space Grotesk'; font-weight:600; font-size:20px;">Public Sans</div>
+          <div style="font-size:12px; color:#7A8886; text-transform:uppercase; letter-spacing:0.12em;">Body · Interface</div>
+        </div>
+        <div style="display:flex; flex-wrap:wrap; gap:18px; margin-bottom:16px; font-family:'Public Sans';">
+          <span style="font-weight:400; font-size:18px;">Regular</span>
+          <span style="font-weight:500; font-size:18px;">Medium</span>
+          <span style="font-weight:600; font-size:18px;">SemiBold</span>
+          <span style="font-weight:700; font-size:18px;">Bold</span>
+        </div>
+        <div style="font-family:'Public Sans'; font-size:17px; color:#4A5B58; letter-spacing:0.01em;">AaBbCcDdEe &nbsp; 0123456789</div>
+        <div style="font-size:12px; color:#7A8886; margin-top:14px; line-height:1.5;">Use for paragraphs, labels, captions, and UI. Set 16px+ for body, 1.5–1.6 line-height.</div>
+      </div>
+    </div>
+    <div style="background:#fff; border:1px solid #E4EAE9; border-radius:20px; padding:32px 36px;">
+      <div style="font-family:'Space Grotesk'; font-weight:600; font-size:15px; margin-bottom:8px;">Type scale</div>
+        <div style="display:flex; align-items:baseline; gap:20px; padding:14px 0; border-bottom:1px solid #EEF2F1;">
+          <div style="flex:none; width:150px; font-size:12px; color:#7A8886;">Display<br><span style="color:#0B5B55; font-weight:600;">44px</span> · Space Grotesk</div>
+          <div style="font-family:'Space Grotesk'; font-size:44px; font-weight:600; color:#0F1B19; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">Progress, engineered</div>
+        </div>
+        <div style="display:flex; align-items:baseline; gap:20px; padding:14px 0; border-bottom:1px solid #EEF2F1;">
+          <div style="flex:none; width:150px; font-size:12px; color:#7A8886;">Heading<br><span style="color:#0B5B55; font-weight:600;">30px</span> · Space Grotesk</div>
+          <div style="font-family:'Space Grotesk'; font-size:30px; font-weight:600; color:#0F1B19; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">Intelligent systems in motion</div>
+        </div>
+        <div style="display:flex; align-items:baseline; gap:20px; padding:14px 0; border-bottom:1px solid #EEF2F1;">
+          <div style="flex:none; width:150px; font-size:12px; color:#7A8886;">Subhead<br><span style="color:#0B5B55; font-weight:600;">20px</span> · Space Grotesk</div>
+          <div style="font-family:'Space Grotesk'; font-size:20px; font-weight:600; color:#0F1B19; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">Built for teams that ship</div>
+        </div>
+        <div style="display:flex; align-items:baseline; gap:20px; padding:14px 0; border-bottom:1px solid #EEF2F1;">
+          <div style="flex:none; width:150px; font-size:12px; color:#7A8886;">Body<br><span style="color:#0B5B55; font-weight:600;">16px</span> · Public Sans</div>
+          <div style="font-family:'Public Sans'; font-size:16px; font-weight:600; color:#0F1B19; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">Clear, legible copy for every surface.</div>
+        </div>
+        <div style="display:flex; align-items:baseline; gap:20px; padding:14px 0; border-bottom:1px solid #EEF2F1;">
+          <div style="flex:none; width:150px; font-size:12px; color:#7A8886;">Caption<br><span style="color:#0B5B55; font-weight:600;">13px</span> · Public Sans</div>
+          <div style="font-family:'Public Sans'; font-size:13px; font-weight:600; color:#0F1B19; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">Metadata, labels, and fine print.</div>
+        </div>
+    </div>
+  </section>
+
+  <!-- ============ 06 FAVICON & APP ICON ============ -->
+  <section style="padding: 56px 0;">
+    <div style="display: flex; align-items: baseline; gap: 18px; margin-bottom: 12px;">
+      <span style="font-family: 'Space Grotesk'; color: #0B5B55; font-weight: 600; font-size: 15px;">06</span>
+      <h2 style="font-family: 'Space Grotesk'; font-size: 30px; font-weight: 600; margin: 0; letter-spacing: -0.02em;">Favicon &amp; app icon</h2>
+    </div>
+    <p style="max-width: 620px; color: #4A5B58; font-size: 16px; line-height: 1.6; margin: 0 0 40px;">The mark reversed in white on a deep petrol tile for maximum contrast at small sizes. Corners round for web/app tiles; keep the full-bleed square for iOS and the padded safe-area version for Android maskable icons.</p>
+
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px;">
+      <div style="background: #fff; border: 1px solid #E4EAE9; border-radius: 20px; padding: 40px;">
+        <div style="font-family:'Space Grotesk'; font-weight:600; font-size:15px; margin-bottom: 28px;">Favicon sizes</div>
+        <div style="display: flex; align-items: flex-end; gap: 28px; flex-wrap: wrap;">
+          <div style="text-align:center;"><img src="assets/favicon-512.png" style="width:112px; border-radius:22px; display:block; margin-bottom:10px;"><a href="assets/favicon-512.png" download="" style="display:block; padding:6px 0; background:#0B5B55; color:#fff; border-radius:7px; font-size:11px; font-weight:600;" style-hover="background:#052926;">↓ 512</a></div>
+          <div style="text-align:center;"><img src="assets/favicon-48.png" style="width:72px; border-radius:15px; display:block; margin-bottom:10px;"><a href="assets/favicon-48.png" download="" style="display:block; padding:6px 0; background:#0B5B55; color:#fff; border-radius:7px; font-size:11px; font-weight:600;" style-hover="background:#052926;">↓ 48</a></div>
+          <div style="text-align:center;"><img src="assets/favicon-32.png" style="width:52px; border-radius:11px; display:block; margin-bottom:10px;"><a href="assets/favicon-32.png" download="" style="display:block; padding:6px 0; background:#0B5B55; color:#fff; border-radius:7px; font-size:11px; font-weight:600;" style-hover="background:#052926;">↓ 32</a></div>
+          <div style="text-align:center;"><img src="assets/favicon-16.png" style="width:28px; border-radius:6px; display:block; margin-bottom:10px;"><a href="assets/favicon-16.png" download="" style="display:block; padding:6px 0; background:#0B5B55; color:#fff; border-radius:7px; font-size:11px; font-weight:600;" style-hover="background:#052926;">↓ 16</a></div>
+        </div>
+        <div style="margin-top: 32px; background:#EEF4F3; border:1px solid #E4EAE9; border-radius: 12px; padding: 10px 14px; display:flex; align-items:center; gap:10px;">
+          <img src="assets/favicon-32.png" style="width:18px; border-radius:5px;">
+          <span style="font-size:13px; color:#4A5B58;">provect.co.uk</span>
+        </div>
+      </div>
+      <div style="background: #fff; border: 1px solid #E4EAE9; border-radius: 20px; padding: 40px;">
+        <div style="font-family:'Space Grotesk'; font-weight:600; font-size:15px; margin-bottom: 28px;">App icon</div>
+        <div style="display:flex; gap: 28px; align-items:flex-start; flex-wrap:wrap;">
+          <div style="text-align:center;">
+            <img src="assets/app-icon-1024-rounded.png" style="width:160px; border-radius:36px; display:block; margin-bottom:10px; box-shadow: 0 6px 18px rgba(11,91,85,0.18);">
+            <div style="font-size:11px;color:#7A8886; margin-bottom:8px;">iOS</div>
+            <a href="assets/app-icon-1024.png" download="" style="display:block; padding:7px 0; background:#0B5B55; color:#fff; border-radius:8px; font-size:11px; font-weight:600;" style-hover="background:#052926;">↓ PNG 1024</a>
+          </div>
+          <div style="text-align:center;">
+            <img src="assets/app-icon-maskable-1024.png" style="width:160px; border-radius:50%; display:block; margin-bottom:10px;">
+            <div style="font-size:11px;color:#7A8886; margin-bottom:8px;">Android maskable</div>
+            <a href="assets/app-icon-maskable-1024.png" download="" style="display:block; padding:7px 0; background:#0B5B55; color:#fff; border-radius:8px; font-size:11px; font-weight:600;" style-hover="background:#052926;">↓ PNG 1024</a>
+          </div>
+          <div style="text-align:center;">
+            <img src="assets/app-icon-ink-1024.png" style="width:160px; border-radius:36px; display:block; margin-bottom:10px;">
+            <div style="font-size:11px;color:#7A8886; margin-bottom:8px;">Ink alt</div>
+            <a href="assets/app-icon-ink-1024.png" download="" style="display:block; padding:7px 0; background:#0B5B55; color:#fff; border-radius:8px; font-size:11px; font-weight:600;" style-hover="background:#052926;">↓ PNG 1024</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 06 SOCIAL ============ -->
+  <section style="padding: 56px 0 24px;">
+    <div style="display: flex; align-items: baseline; gap: 18px; margin-bottom: 12px;">
+      <span style="font-family: 'Space Grotesk'; color: #0B5B55; font-weight: 600; font-size: 15px;">07</span>
+      <h2 style="font-family: 'Space Grotesk'; font-size: 30px; font-weight: 600; margin: 0; letter-spacing: -0.02em;">Social</h2>
+    </div>
+    <p style="max-width: 620px; color: #4A5B58; font-size: 16px; line-height: 1.6; margin: 0 0 40px;">Profile avatar centers the mark on teal so it survives circular cropping. The banner keeps the logo left, with the mark ghosted at the right edge.</p>
+
+    <div style="background:#fff; border:1px solid #E4EAE9; border-radius:20px; overflow:hidden; margin-bottom: 24px;">
+      <img src="assets/social-banner-1500x500.png" alt="PROVECT social banner" style="width:100%; display:block;">
+      <div style="display:flex; align-items:center; justify-content:space-between; gap:12px; padding:14px 22px; border-top:1px solid #EEF2F1;"><span style="font-size:13px; color:#7A8886;">Banner · 1500 × 500</span><a href="assets/social-banner-1500x500.png" download="" style="flex:none; padding:7px 14px; background:#0B5B55; color:#fff; border-radius:8px; font-size:12px; font-weight:600;" style-hover="background:#052926;">↓ PNG</a></div>
+    </div>
+    <div style="display:flex; gap: 24px; align-items:center; flex-wrap:wrap;">
+      <div style="text-align:center;">
+        <img src="assets/social-avatar-512.png" style="width:164px; border-radius:50%; display:block; margin-bottom:10px; box-shadow: 0 4px 14px rgba(11,91,85,0.16);">
+        <div style="font-size:12px; color:#7A8886; margin-bottom:8px;">Avatar · circular</div>
+        <a href="assets/social-avatar-512.png" download="" style="display:block; padding:7px 0; background:#0B5B55; color:#fff; border-radius:8px; font-size:11px; font-weight:600;" style-hover="background:#052926;">↓ PNG 512</a>
+      </div>
+      <div style="text-align:center;">
+        <img src="assets/social-avatar-512.png" style="width:164px; border-radius:32px; display:block; margin-bottom:10px;">
+        <div style="font-size:12px; color:#7A8886; margin-bottom:8px;">Avatar · rounded</div>
+        <a href="assets/social-avatar-512.png" download="" style="display:block; padding:7px 0; background:#0B5B55; color:#fff; border-radius:8px; font-size:11px; font-weight:600;" style-hover="background:#052926;">↓ PNG 512</a>
+      </div>
+      <div style="flex:1; min-width: 240px; background:#EAF1F2; border:1px solid #E4EAE9; border-radius:16px; padding: 22px 26px; font-size:13px; color:#4A5B58; line-height:1.55;">Keep the mark centered with breathing room — most platforms crop avatars to a circle and overlay status badges at the corners.</div>
+    </div>
+  </section>
+
+  <!-- ============ DOWNLOADS ============ -->
+  <section style="padding: 40px 0 96px;">
+    <div style="background: linear-gradient(135deg, #062A31 0%, #041A1F 100%); border-radius: 24px; padding: 56px; color:#fff;">
+      <h2 style="font-family:'Space Grotesk'; font-size:26px; font-weight:600; margin:0 0 8px; letter-spacing:-0.02em;">Download the full pack
+      <p style="color:rgba(255,255,255,0.75); margin:0 0 36px; font-size:15px;">Every asset in one click — vector SVG for logos, PNG for icons and social. Each image above also has its own download button.</p>
+      <div style="display:grid; grid-template-columns: repeat(3, 1fr); gap: 14px;">
+        <sc-for list="{{ downloads }}" as="d" hint-placeholder-count="12">
+          <a href="{{ d.href }}" download="" style="display:flex; align-items:center; justify-content:space-between; gap:12px; background: rgba(255,255,255,0.08); border:1px solid rgba(255,255,255,0.14); border-radius:12px; padding:14px 18px; color:#fff; font-size:14px;" style-hover="background: rgba(255,255,255,0.16);">
+            <span>{{ d.label }}</span>
+            <span style="color: var(--accent, #2DD4BF); font-size:12px; font-weight:600;">{{ d.type }}</span>
+          </a>
+        </sc-for>
+      </div>
+    </h2></div>
+    <div style="text-align:center; margin-top: 40px; font-family:'Space Grotesk'; font-size:12px; letter-spacing:0.2em; text-transform:uppercase; color:#9AAAA7;">PROVECT LTD · BRAND GUIDELINES</div>
+  </section>
+
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:1180},&quot;accent&quot;:{&quot;editor&quot;:&quot;color&quot;,&quot;default&quot;:&quot;#2DD4BF&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;options&quot;:[&quot;#2DD4BF&quot;,&quot;#38BDF8&quot;,&quot;#B6E64B&quot;,&quot;#C79A4B&quot;],&quot;section&quot;:&quot;Theme&quot;}}">
+class Component extends DCLogic {
+  renderVals() {
+    const accent = this.props.accent ?? '#2DD4BF';
+    const downloads = [
+      { label: 'Logo — Primary', href: 'assets/provect-logo-primary.svg', type: 'SVG' },
+      { label: 'Logo — Primary', href: 'assets/provect-logo-primary.png', type: 'PNG' },
+      { label: 'Logo — Reversed', href: 'assets/provect-logo-reversed.svg', type: 'SVG' },
+      { label: 'Logo — Reversed', href: 'assets/provect-logo-reversed.png', type: 'PNG' },
+      { label: 'Logo — Single-ink', href: 'assets/provect-logo-black.svg', type: 'SVG' },
+      { label: 'Logo — Single-ink', href: 'assets/provect-logo-black.png', type: 'PNG' },
+      { label: 'Logo + Tagline', href: 'assets/provect-logo-tagline-primary.svg', type: 'SVG' },
+      { label: 'Tagline — Reversed', href: 'assets/provect-logo-tagline-reversed.svg', type: 'SVG' },
+      { label: 'Mark — Teal', href: 'assets/provect-mark-teal.svg', type: 'SVG' },
+      { label: 'Mark — Teal', href: 'assets/provect-mark-teal.png', type: 'PNG' },
+      { label: 'Mark — White', href: 'assets/provect-mark-white.svg', type: 'SVG' },
+      { label: 'Mark — White', href: 'assets/provect-mark-white.png', type: 'PNG' },
+      { label: 'App icon — iOS', href: 'assets/app-icon-1024.png', type: 'PNG' },
+      { label: 'App icon — Maskable', href: 'assets/app-icon-maskable-1024.png', type: 'PNG' },
+      { label: 'Favicon 512', href: 'assets/favicon-512.png', type: 'PNG' },
+      { label: 'Social avatar', href: 'assets/social-avatar-512.png', type: 'PNG' },
+      { label: 'Social banner', href: 'assets/social-banner-1500x500.png', type: 'PNG' },
+    ];
+    return { accent, downloads };
+  }
+}
+</script>
+</body>
+</html>
